@@ -415,8 +415,9 @@
                     <div class="col-lg-2 col-md-6 col-sm-12 width">
                         <div class="address">
                             <h3>Contacts</h3>
-                            <i><img onclick="contact()" src="icon/2.png">Tel
-                        <p id="contct"></p>
+                            <i><img onclick="contact()" src="icon/2.png" class="contact">Tel
+                                <p id="pg2">07038634637,08027882232</p>
+                        <!--<p id="contct"></p>-->
                      </i>
                         </div>
                     </div>
@@ -484,6 +485,9 @@
             });
             $(".location").click(function() {
                 $("#pg").toggle()
+            });
+            $(".contact").click(function() {
+                $("#pg2").toggle()
             })
 
         });
