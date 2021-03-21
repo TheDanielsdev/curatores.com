@@ -3,7 +3,7 @@
 #back-to-top {
     background: transparent;
     color: rgb(2, 2, 78);
-    font-size: 1.2em;
+    font-size: 2.1em;
     font-weight: bold;
     border: 2px solid rgb(0, 189, 252);
     border-radius: 50px;
@@ -11,8 +11,6 @@
     cursor: pointer;
     padding: 10px;
     z-index: 99;
-    transition-property: all;
-    transition: 2s;
     margin-left: 8px;
     bottom: 50px;
     position: fixed;
