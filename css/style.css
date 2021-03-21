@@ -1331,6 +1331,13 @@ header area
                                                                 color: #fff;
                                                             }
                                                             
+                                                            @media (max-width: 991px) {
+                                                                .banner-main .carousel-caption a {
+                                                                    font-size: 15px;
+                                                                    padding: 10px 30px;
+                                                                }
+                                                            }
+                                                            
                                                             .banner-main .carousel-caption a:hover {
                                                                 background-color: rgb(14, 116, 150);
                                                                 border: rgb(14, 116, 150);
