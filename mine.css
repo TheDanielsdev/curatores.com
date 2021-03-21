@@ -1,143 +1,118 @@
 /*this for the button which when users click on takes them back to the very beginning of the page*/
+
 #back-to-top {
-  background: rgb(0, 187, 250);
-  color: #ffff;
-  font-size: 1.2em;
-  font-weight: bold;
-  border: 2px solid rgb(0, 189, 252);
-  border-radius: 50px;
-  display: none;
-  cursor: pointer;
-  padding: 10px;
-  z-index: 99;
-  transition-property: all;
-  transition: 2s;
-  margin-left: 8px;
-  bottom: 50px;
-  position: fixed;
-  animation-name: anime;
-  animation-duration: 5s;
-  animation: anime 1s linear infinite normal forwards;
-}
-
-#back-to-top:hover {
-  background: blue;
-  color: #ffff;
-  transform: scale(1.1);
-  border: blue;
-}
-
-@keyframes anime {
-  0% {
-    background: red;
-    color: #fff;
-    border: 2px solid red;
-    border-radius: 50px;
-  }
-  50% {
-    background: rgb(0, 191, 255);
-    color: #fff;
+    background: transparent;
+    color: #ffff;
+    font-size: 1.2em;
+    font-weight: bold;
     border: 2px solid rgb(0, 189, 252);
     border-radius: 50px;
-  }
-  100% {
-    background: red;
-    color: #fff;
-    border: 2px solid red;
-    border-radius: 50px;
-  }
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 99;
+    transition-property: all;
+    transition: 2s;
+    margin-left: 8px;
+    bottom: 50px;
+    position: fixed;
+    width: 50px;
 }
 
 #back-to-topp {
-  background: rgb(0, 187, 250);
-  color: #ffff;
-  font-size: 1.2em;
-  font-weight: bold;
-  border: 2px solid rgb(0, 189, 252);
-  border-radius: 50px;
-  /*display: none;*/
-  cursor: pointer;
-  padding: 10px;
-  z-index: 99;
-  transition-property: all;
-  transition: 2s;
-  margin-left: 1250px;
-  bottom: 10px;
-  position: fixed;
-  animation-name: anime;
-  animation-duration: 5s;
-  animation: anime 1s linear infinite normal forwards;
+    background: rgb(0, 187, 250);
+    color: #ffff;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid rgb(0, 189, 252);
+    border-radius: 50px;
+    /*display: none;*/
+    cursor: pointer;
+    padding: 10px;
+    z-index: 99;
+    transition-property: all;
+    transition: 2s;
+    margin-left: 1250px;
+    bottom: 10px;
+    position: fixed;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation: anime 1s linear infinite normal forwards;
 }
 
 @media (orientation: portrait) {
-  #back-to-topp {
-    margin-left: 390px;
-  }
+    #back-to-topp {
+        margin-left: 390px;
+    }
 }
 
 #back-to-topp:hover {
-  background: blue;
-  color: #ffff;
-  transform: scale(1.1);
-  border: blue;
+    background: blue;
+    color: #ffff;
+    transform: scale(1.1);
+    border: blue;
 }
 
 @media (orientation: portrait) {
-  .carousel-caption span {
-    display: none;
-  }
+    .carousel-caption span {
+        display: none;
+    }
 }
+
+
 /*this is for the about page , not the about on the main page*/
+
 .about h2 {
-  text-align: center;
-  font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  border-bottom: 2px solid rgb(0, 191, 255);
-  width: 225px;
-  margin-left: 550px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    border-bottom: 2px solid rgb(0, 191, 255);
+    width: 225px;
+    margin-left: 550px;
 }
 
 .about p {
-  padding: 10px;
-  font-weight: bold;
-  line-height: 2em;
-  font-size: normal;
+    padding: 10px;
+    font-weight: bold;
+    line-height: 2em;
+    font-size: normal;
 }
 
 .about ul {
-  list-style: circle;
+    list-style: circle;
 }
+
 .about li {
-  list-style: square;
-  padding-left: 30px;
-  padding-top: 30px;
-  font-weight: bold;
-  font-size: 1rem;
+    list-style: square;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 @media (orientation: portrait) {
-  .about h2 {
-    margin-left: 95px;
-  }
+    .about h2 {
+        margin-left: 95px;
+    }
 }
 
 .banner-main .our-mission li {
-  padding: 10px;
-  padding-left: -200px;
-  font-weight: bold;
-  font-size: normal;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-bottom: -10px;
-  margin-left: 5px;
-  line-height: 1.5em;
+    padding: 10px;
+    padding-left: -200px;
+    font-weight: bold;
+    font-size: normal;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: -10px;
+    margin-left: 5px;
+    line-height: 1.5em;
 }
 
 @media (orientation: portrait) {
-  .banner-main .our-mission li {
-    margin-left: 10px;
-    line-height: 1.2em;
-    padding-bottom: -10px;
-  }
+    .banner-main .our-mission li {
+        margin-left: 10px;
+        line-height: 1.2em;
+        padding-bottom: -10px;
+    }
 }

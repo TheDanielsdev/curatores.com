@@ -13,6 +13,18 @@ function help() {
 
 }
 
+function help () {
+    var address = document.getElementById('locatn')
+
+    if(address.style.display === 'none') {
+address.style.display === 'block';
+    }
+
+    else {
+        address.style.display === 'none';
+    }
+}
+
 
 
 /*for displaying the contact numbers when clicked*/
