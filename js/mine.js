@@ -1,17 +1,4 @@
-/*for displaying the location numbers when clicked*/
-var options = [
-    'Surulere Street,Pepsi Junction,Quarry Abeokuta Ogun State,Nigeria'
-]
 
-function help() {
-
-    var randoptionNum = Math.floor(Math.random() * options.length);
-
-
-    document.getElementById('locatn').innerHTML = '';
-    document.getElementById('locatn').innerHTML = options[randoptionNum];
-
-}
 
 function help () {
     var address = document.getElementById('locatn')
@@ -28,35 +15,10 @@ address.style.display === 'block';
 
 
 /*for displaying the contact numbers when clicked*/
-var contacts = [
-    '07038634637,08027882232'
-]
 
 
-function contact() {
-
-    var randoptionNum = Math.floor(Math.random() * contacts.length);
 
 
-    document.getElementById('contct').innerHTML = '';
-    document.getElementById('contct').innerHTML = contacts[randoptionNum];
-
-}
-
-
-var emails = [
-    'info@curatoreslp.gmail.com'
-]
-
-/*for displaying the gmails when clicked
-function gmail() {
-    var randoptionNum = Math.floor(Math.random() * emails.length);
-
-
-    document.getElementById('gmail').innerHTML = '';
-    document.getElementById('gmail').innerHTML = emails[randoptionNum];
-
-}*/
 
 function gmail() {
     var x = document.getElementById('pg')
